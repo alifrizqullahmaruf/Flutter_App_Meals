@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/data/dummy_data.dart';
 import 'package:meals_app/screens/category_screen.dart';
-import 'package:meals_app/screens/meals_screen.dart';
 
 final theme = ThemeData(
   useMaterial3: true,
@@ -22,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: theme,
       home: CategoriesScreen(),
     );
