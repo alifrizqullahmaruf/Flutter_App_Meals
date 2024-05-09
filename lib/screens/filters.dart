@@ -40,6 +40,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
       //     );
       //   }
       // }),
+      // Build some advance filter on the page so this filter can be used perfecly
       body: PopScope(
         canPop: false,
         onPopInvoked: (bool didPop) {
