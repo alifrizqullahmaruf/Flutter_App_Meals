@@ -55,6 +55,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
         },
         child: Column(
           children: [
+            // ini membuat switchList yang sering du=igunnakan pada UI settings
             SwitchListTile(
               value: _glutenFreeFilterSet,
               onChanged: (isChecked) {
